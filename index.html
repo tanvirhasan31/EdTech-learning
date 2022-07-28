@@ -6,6 +6,7 @@
     <title>Edtech learning</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/b1e0b8840c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!-- header start -->
@@ -49,36 +50,50 @@
         </section>
         <!-- navbar ends -->
         <!-- slider startscarousel-caption -->
-        <section class="container-fluid my-5">
-          <div id="carouselExampleDark" class=" carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner align-items-center">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption position-absolute top-50 start-50 translate-middle">
-                    <h1>Get Started Digital 
-                        Learnin</h1>
-                        <p>It is a long established fact that a reader will be distracted by the readable 
-                            content of a page when looking at its layout.</p>
-                            <div class="btn btn-primary">Get Started</div>
-            
-                </div>
-              </div>           
-              </div>
-    
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </button>
+        <div id="carouselExampleCaptions" class="carousel slide my-5" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-        </section>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h5>Get Started Digital 
+                  Learning</h5>
+                <p class="d-none d-md-block">It is a long established fact that a reader will be distracted by the readable 
+                  content of a page when looking at its layout.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h5>Get Started Digital 
+                  Learning</h5>
+                <p class="d-none d-md-block">It is a long established fact that a reader will be distracted by the readable 
+                  content of a page when looking at its layout.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h5>Get Started Digital 
+                  Learning</h5>
+                <p class="d-none d-md-block">It is a long established fact that a reader will be distracted by the readable 
+                content of a page when looking at its layout</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
         <!-- slider end -->
     </header>
     <!--header ends -->
@@ -271,9 +286,9 @@
       </section>
       <!-- question and answer section ends -->
       <!-- company logo section starts -->
-     <!-- <section> 
+      <section class="d-sm-none 	d-md-non"> 
         <h1 class="text-center">Trusted by over 800+ companies</h1>
-        <div class="d-flex justify-content-evenly my-5 align-items-center">
+        <div class="d-flex justify-content-evenly my-5 align-items-center"> 
             <div>
                 <img src="images/company/company-1.png">
             </div>
@@ -293,7 +308,7 @@
                 <img src="images/company/company-6.png" alt="">
             </div>
       </div>
-     </section> -->
+     </section>
     <!-- company logo section ends -->
     </main>
     <!--------------
